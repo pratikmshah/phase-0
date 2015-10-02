@@ -14,8 +14,8 @@ What does the HEAD^ argument mean?
 
 What are the 3 stages of a git change and how do you move a file from one stage to the other?
 - The three stages of a git change once your in a new branch is to check the git status, add the changed files, and then commit and write a description of the the changes.
-The steps below will move you from one stage to the other:
-0. NEW BRANCH
+
+The steps below will move you from one stage to the other but first create a new branch:
 1. git status
 2. git add file-name
 3. git commit -m "Change Message"
