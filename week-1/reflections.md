@@ -43,3 +43,17 @@ rmdir - remove directory - this will remove a directory
 rm - remove - this is used to remove files
 
 help - help - I think this one will pull up help manual - just tested this and wow its a built in cheat-sheet!
+
+
+# 1.4 Create, Fork, and Cloning
+
+Ok so to create a new repo, fork it and clone a repo on GitHub you would first sign in. On the top right hand part of the toolbar there is a "+" sign click on that and click "New Repository". Next, give your repository a name, set it to public, give it a license(MIT will do) and hit create repository.
+
+To fork or copy a repository we would find the repository that we want to copy into our own personal GitHub and find the little icon shaped like "Y Fork" and click on that. Then select your profile and it will automatically take you back to your new copied repository.
+
+Last, to clone a repo from your own GitHub navigate into the repo you would like to clone and copy the URL in the bottom right under "HTTPS clone URL". Go into your terminal and using pwd/cd navigate to a folder you would like to clone the repository into. Once there type in "git clone URL" where URL is the HTTPS address you copied and hit enter. One finished you can hit "ls" to see if the files indeed transfer.
+
+You would fork a repository vs creating a new one for several reasons but a main one is that you would be copying the latest version of the project to work off of. Plus you would be able to work without affecting the original project. It also allows for code review (pull request) where the original author could review and add in your code to the original project if he/she likes it.
+
+I wouldn't say I had any struggles technically when setting up git or GitHub but I did feel nervous and took things slowly as this is a new environment I have never used before. Overall during the whole process I finally had a better understanding on what GitHub was for and learned about repositories and how to copy them and work with them locally on your computer/personal GitHub. As for Git I understand that using this program will be an essential part in managing code and using it for the first time to clone a repository gave me some confidence against my fears on learning Git & GitHub.
+
