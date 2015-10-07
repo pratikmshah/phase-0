@@ -3,6 +3,7 @@
 ![Site Map](imgs/site-map.jpg)
 
 What are the 6 Phases of Web Design?
+
    The six phases of web design are:
    1. Information Gathering - figuring out the purpose of the site, the goals, audience and content.
    2. Planning - create a site map to map out topic areas of the site.
@@ -12,6 +13,7 @@ What are the 6 Phases of Web Design?
    6. Maintenance - continue to add new content, fix bugs and other issues throughout the life cycle.
 
 What is your site's primary goal or purpose? What kind of content will your site feature?
+
    My sites primary goal and purpose is to have it market myself as a developer. It will have four main content areas:
    1. About Me - which will tell the reader about myself and what I do.
    2. Work - this area will showcase my projects that I have done at DBC and other side projects
