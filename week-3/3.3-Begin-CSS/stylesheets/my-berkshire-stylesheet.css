@@ -2,7 +2,6 @@ body {
   background-color: #ffffff;
   color: #000080;
   font-style: normal;
-  margin:0;
 }
 a:link {
   color: #800080;
@@ -16,16 +15,20 @@ a:visited {
 .column-right {
   float: right;
 }
+li {
+  margin: 25px;
+}
 .descript {
   font-size: 10px;
 }
 header {
   font-weight: bold;
   text-align: center;
-  border-bottom: 1px solid black
+  border-bottom: 1px solid black;
 }
 .drop-cap {
   font-size: 36px;
+  /*line-height: 0;*/
 }
 .low-cap {
   font-size: 12px;
@@ -38,4 +41,25 @@ header {
 }
 .white-space {
   white-space: pre-line;
+}
+.adspecs {
+  clear: both;
+  font-size: 11px;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.test {
+  position: relative;
+  margin: 0px;
+}
+.comment {
+  font-size: 13px;
+  border-bottom: 1px solid black;
+}
+.copyright {
+  font-size: 10px;
+}
+.copyright-name {
+  font-weight: bold;
 }
