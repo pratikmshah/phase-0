@@ -1,0 +1,40 @@
+body {
+  background-color: #ffffff;
+  color: #000080;
+  font-style: normal;
+}
+a:link {
+  color: #800080;
+}
+a:visited {
+  color: #ff0000;
+}
+.column-left {
+  float: left;
+}
+.column-right {
+  float: right;
+}
+.descript {
+  font-size: 10px;
+}
+header {
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid black
+}
+.drop-cap {
+  font-size: 36px;
+}
+.low-cap {
+  font-size: 12px;
+}
+.address {
+  font-size: 13px;
+}
+#homepage {
+  font-size: 16px;
+}
+.white-space {
+  white-space: pre-line;
+}
