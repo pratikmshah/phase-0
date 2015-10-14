@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   color: #000080;
   font-style: normal;
+  margin:0;
 }
 a:link {
   color: #800080;
