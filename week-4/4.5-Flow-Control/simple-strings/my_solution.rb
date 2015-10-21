@@ -12,6 +12,5 @@ def welcome(address)
   end
 end
 
-puts "Please enter your full address (ex: 1 Hacker Way, Menlo Park, CA 94025)"
 user_address = gets.chomp.to_s
 welcome(user_address)
