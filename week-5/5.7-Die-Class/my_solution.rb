@@ -9,9 +9,10 @@
 # Input: number of sides
 # Output: a random roll displaying a number on the die
 # Steps:
-# 1. create an instance variable and initialize it to sides
-#
-#
+# 1. create an instance variable and initialize it to sides and check for error
+# 2. define a method to return variable sides
+# 3. create a roll method that will randomly display a side on the die
+
 # 1. Initial Solution
 
 class Die
