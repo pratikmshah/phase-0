@@ -99,7 +99,7 @@ end
 =begin
 
 What was your process for breaking the problem down? What different approaches did you consider?
-  I used a couple of resources such as pad and paper and internet for research. I wish I had a better method but I went off of the top of my head knowing that every 3 digits a comma would be needed. I tried to look at divisibility rules to see if I could come up with a long if else statement but then quickly crossed that off. I had a few other ideas that were pretty useless and thats when I looked online to see if I could find any sepcific patterns. As soon as I read about commas the words "left to right" hit me and thats where I got the idea of reversing an array and solving it that way.
+  It was pretty hard for me to figure out what to do especially without using any methods which is why I have 4 loops in my first iteration. I tried to figure out a way to concatenate a comma every 3 digits in an array but it was hard to do going left to right on an array [1000] on the integer when comma placing starts right to left [0001]. So I decided to reverse the array add in the commas and reverse it back. It ended up long and messy.
 
 Was your pseudocode effective in helping you build a successful initial solution?
   Pseudocode was good to write down to show me what steps I needed to acomplish. Also, pseudocode was a great way to see in each step what result I wanted. So it was also a double check for me; for example, if I needed the string to be reversed after I coded I could print out and double check the result matched with what the pseduocode wanted.
