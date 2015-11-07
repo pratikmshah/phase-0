@@ -104,7 +104,7 @@ class BingoBoard
     row = 0
     puts "#{column}"
     while row < 5
-      puts "#{@bingo_board[row][col]}"      #loop through and print column specific values
+      puts "#{@bingo_board[row][col]}"      # loop through and print column specific values
       row += 1
     end
   end
