@@ -31,7 +31,9 @@
 
 # Display a column to the console
 - Define METHOD that take a char argument
--
+- find char to match and set the column index to the char's index value
+- loop through row incrementing by one and keep column constant
+- print out values to the console
 
 # Display the board to the console (prettily)
 - Define method that takes no arguments
@@ -56,7 +58,7 @@ class BingoBoard
   end
 
   def board_match()
-    if(@select[0] == "B")
+    if(@select[0] == "B")       # find column value and get index
       col = 0
     elsif (@select[0] == "I")
       col = 1
@@ -70,8 +72,8 @@ class BingoBoard
 
     row = 0
     while row < 5
-      if(@bingo_board[row][col] == @select[1])
-        @mark_row = row
+      if(@bingo_board[row][col] == @select[1])    # loop through column trying to find value match
+        @mark_row = row                           # if match is found save row & column and set match to true
         @mark_column = col
         @match = true
       end
@@ -81,12 +83,12 @@ class BingoBoard
 
   def mark_board()
     if(@match)
-      @bingo_board[@mark_row][@mark_column] = 'X'
+      @bingo_board[@mark_row][@mark_column] = 'X'     # mark the element with x if there is a match
       @match = false
     end
   end
 
-  def print_column(column)
+  def print_column(column)      # retrieve char value and set column to value's index
     if(column == "B")
       col = 0
     elsif (column == "I")
@@ -102,7 +104,7 @@ class BingoBoard
     row = 0
     puts "#{column}"
     while row < 5
-      puts "#{@bingo_board[row][col]}"
+      puts "#{@bingo_board[row][col]}"      # loop through and print column specific values
       row += 1
     end
   end
