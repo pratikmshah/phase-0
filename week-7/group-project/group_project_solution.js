@@ -73,7 +73,7 @@ mean:
 // sum of array
 
 function sum(data) {
-  var sum = 0;  // delcare sum vairable
+  var sum = 0;  // declare sum vairable
 
   // iterate through the array and sum the numbers into variable
   for(var i = 0; i < data.length; i++) {
@@ -90,7 +90,7 @@ function mean(data) {
 
 // median of array
 function median(data) {
-  median = 0;  // delcare result
+  median = 0;  // declare result
 
   // calculate median based on even or odd # of elements
   if (data.length % 2 != 0) {
@@ -107,4 +107,4 @@ console.log(sum(test));
 console.log(mean(test));
 console.log(median(test));
 
-//======================================================================================
+//=======================================================================================
