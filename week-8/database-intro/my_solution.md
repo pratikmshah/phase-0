@@ -44,8 +44,8 @@
 ## Release 7 - Reflection
 
 What are databases for?
-Databases are used to efficiently store, organize, and access vast amoounts of information. You can store
-all types of data in each table.
+- Databases are used to efficiently store, organize, and access vast amoounts of information. You can store
+  all types of data in each table.
 
 What is a one-to-many relationship?
 - One to many relation is where one field in a table can be related to many other fields in a related table.
